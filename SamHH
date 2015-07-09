@@ -1,7 +1,7 @@
 ---- Minecraft Crash Report ----
-// Ouch. That hurt :(
+// Surprise! Haha. Well, this is awkward.
 
-Time: 14/06/15 13:35
+Time: 14/06/15 14:00
 Description: Ticking screen
 
 java.lang.IllegalArgumentException: Default value cannot be lower than minimum value!
@@ -50,18 +50,18 @@ Details:
 -- Affected level --
 Details:
 	Level name: MpServer
-	All players: 1 total; [EntityClientPlayerMP['SamHH'/4743703, l='MpServer', x=-33.99, y=91.62, z=1087.95]]
+	All players: 1 total; [EntityClientPlayerMP['SamHH'/5361978, l='MpServer', x=-33.99, y=91.62, z=1087.95]]
 	Chunk stats: MultiplayerChunkCache: 0, 0
 	Level seed: 0
 	Level generator: ID 04 - BIOMESOP, ver 0. Features enabled: false
 	Level generator options: 
 	Level spawn location: World: (0,54,-3), Chunk: (at 0,3,13 in 0,-1; contains blocks 0,0,-16 to 15,255,-1), Region: (0,-1; contains chunks 0,-32 to 31,-1, blocks 0,0,-512 to 511,255,-1)
-	Level time: 38138911 game time, 121480855 day time
+	Level time: 38167955 game time, 121509899 day time
 	Level dimension: 0
 	Level storage version: 0x00000 - Unknown?
 	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
 	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
-	Forced entities: 41 total; [EntityZombie['Zombie'/4744268, l='MpServer', x=-10.59, y=71.00, z=1091.00], EntityChicken['Chicken'/4744267, l='MpServer', x=-2.88, y=72.00, z=1096.53], EntityCreeper['Creeper'/4744258, l='MpServer', x=-78.50, y=76.00, z=1059.50], EntitySkeleton['Skeleton'/4744257, l='MpServer', x=-65.50, y=76.00, z=1060.50], EntitySkeleton['Skeleton'/4744256, l='MpServer', x=-70.59, y=76.00, z=1060.34], EntityTFNagaSegment['unknown'/220, l='MpServer', x=0.00, y=0.00, z=0.00], EntityTFNagaSegment['unknown'/221, l='MpServer', x=0.00, y=0.00, z=0.00], EntityCreeper['Creeper'/4744284, l='MpServer', x=-36.50, y=35.00, z=1126.50], EntityTFNagaSegment['unknown'/222, l='MpServer', x=0.00, y=0.00, z=0.00], EntityCreeper['Creeper'/4744285, l='MpServer', x=-36.50, y=69.00, z=1120.50], EntityTFNagaSegment['unknown'/216, l='MpServer', x=0.00, y=0.00, z=0.00], EntityCartChest['Minecart with Chest'/4744283, l='MpServer', x=2.50, y=27.69, z=1074.50], EntityTFNagaSegment['unknown'/217, l='MpServer', x=0.00, y=0.00, z=0.00], EntityTFNagaSegment['unknown'/218, l='MpServer', x=0.00, y=0.00, z=0.00], EntityTFNagaSegment['unknown'/219, l='MpServer', x=0.00, y=0.00, z=0.00], EntityClientPlayerMP['SamHH'/4743703, l='MpServer', x=-33.99, y=91.62, z=1087.95], EntityCow['Cow'/4744278, l='MpServer', x=-84.88, y=70.00, z=1087.88], EntityTFNagaSegment['unknown'/212, l='MpServer', x=0.00, y=0.00, z=0.00], EntityTFNagaSegment['unknown'/213, l='MpServer', x=0.00, y=0.00, z=0.00], EntityTFNagaSegment['unknown'/214, l='MpServer', x=0.00, y=0.00, z=0.00], EntityChicken['Chicken'/4744277, l='MpServer', x=-89.44, y=66.00, z=1087.44], EntityTFNagaSegment['unknown'/215, l='MpServer', x=0.00, y=0.00, z=0.00], EntitySpider['Spider'/4744274, l='MpServer', x=-78.19, y=75.00, z=1041.50], EntityCartChest['Minecart with Chest'/4744273, l='MpServer', x=-67.50, y=22.85, z=1052.50], EntityTFNagaSegment['unknown'/211, l='MpServer', x=0.00, y=0.00, z=0.00], EntitySkeleton['Skeleton'/4744301, l='MpServer', x=-88.50, y=68.00, z=1118.50], EntityChicken['Chicken'/4744300, l='MpServer', x=-88.44, y=68.00, z=1119.53], EntityEnderman['Enderman'/4744297, l='MpServer', x=-31.50, y=69.00, z=1127.50], EntityChicken['Chicken'/4744293, l='MpServer', x=0.59, y=74.00, z=1097.56], EntityItem['item.item.egg'/4744294, l='MpServer', x=0.88, y=74.13, z=1096.69], EntityCreeper['Creeper'/4744290, l='MpServer', x=12.50, y=31.00, z=1068.50], BlueSlime['Blue Slime'/4744248, l='MpServer', x=-30.84, y=29.00, z=1094.88], EntityZombie['Zombie'/4744249, l='MpServer', x=-26.66, y=28.00, z=1100.50], EntityZombie['Zombie'/4744252, l='MpServer', x=-3.84, y=79.00, z=1078.34], EntitySkeleton['Skeleton'/4744255, l='MpServer', x=-65.50, y=76.00, z=1057.84], EntityZombie['Zombie'/4744240, l='MpServer', x=-63.50, y=75.00, z=1075.50], EntityItem['item.item.string'/4744243, l='MpServer', x=-19.81, y=19.13, z=1085.00], EntityItem['item.tile.saplings.orangeautumnSapling'/4744244, l='MpServer', x=-45.28, y=81.13, z=1094.31], EntitySkeleton['Skeleton'/4744245, l='MpServer', x=-17.16, y=82.00, z=1064.47], EntityChicken['Chicken'/4744306, l='MpServer', x=-68.53, y=71.00, z=1024.53], EntityGuardian['Dungeon Guardian'/4744307, l='MpServer', x=-72.31, y=75.00, z=1032.22]]
+	Forced entities: 24 total; [EntityItem['item.item.string'/5362487, l='MpServer', x=-19.81, y=19.13, z=1085.00], EntityCartChest['Minecart with Chest'/5362494, l='MpServer', x=-67.50, y=22.85, z=1052.50], EntityChicken['Chicken'/5362495, l='MpServer', x=-89.44, y=66.00, z=1087.44], EntityChicken['Chicken'/5362491, l='MpServer', x=-10.47, y=72.00, z=1094.59], EntityCow['Cow'/5362488, l='MpServer', x=-79.97, y=74.00, z=1086.16], EntityTFNagaSegment['unknown'/254, l='MpServer', x=0.00, y=0.00, z=0.00], EntityTFNagaSegment['unknown'/258, l='MpServer', x=0.00, y=0.00, z=0.00], EntityTFNagaSegment['unknown'/255, l='MpServer', x=0.00, y=0.00, z=0.00], EntityTFNagaSegment['unknown'/259, l='MpServer', x=0.00, y=0.00, z=0.00], EntityCreeper['Creeper'/5362499, l='MpServer', x=6.31, y=27.16, z=1072.47], EntityTFNagaSegment['unknown'/252, l='MpServer', x=0.00, y=0.00, z=0.00], EntityTFNagaSegment['unknown'/256, l='MpServer', x=0.00, y=0.00, z=0.00], EntityCartChest['Minecart with Chest'/5362498, l='MpServer', x=2.50, y=27.69, z=1074.50], EntityTFNagaSegment['unknown'/253, l='MpServer', x=0.00, y=0.00, z=0.00], EntityTFNagaSegment['unknown'/257, l='MpServer', x=0.00, y=0.00, z=0.00], EntityTFNagaSegment['unknown'/250, l='MpServer', x=0.00, y=0.00, z=0.00], EntityTFNagaSegment['unknown'/251, l='MpServer', x=0.00, y=0.00, z=0.00], EntityItem['item.item.egg'/5362503, l='MpServer', x=0.88, y=74.13, z=1096.69], EntityTFNagaSegment['unknown'/260, l='MpServer', x=0.00, y=0.00, z=0.00], EntityChicken['Chicken'/5362502, l='MpServer', x=0.59, y=74.00, z=1097.56], EntityTFNagaSegment['unknown'/261, l='MpServer', x=0.00, y=0.00, z=0.00], EntityClientPlayerMP['SamHH'/5361978, l='MpServer', x=-33.99, y=91.62, z=1087.95], EntityChicken['Chicken'/5362506, l='MpServer', x=-88.47, y=68.00, z=1119.69], EntityGuardian['Dungeon Guardian'/5362509, l='MpServer', x=-71.31, y=76.00, z=1031.13]]
 	Retry entities: 0 total; []
 	Server brand: cauldron,craftbukkit,mcpc,fml,forge
 	Server type: Non-integrated multiplayer server
@@ -91,7 +91,7 @@ Details:
 	Operating System: Linux (amd64) version 3.13.0-45-generic
 	Java Version: 1.7.0_80, Oracle Corporation
 	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 859781456 bytes (819 MB) / 1977090048 bytes (1885 MB) up to 1977090048 bytes (1885 MB)
+	Memory: 868568376 bytes (828 MB) / 1975517184 bytes (1884 MB) up to 1975517184 bytes (1884 MB)
 	JVM Flags: 3 total; -Xms1024m -Xmx2048m -XX:PermSize=256m
 	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
@@ -258,7 +258,7 @@ Details:
 	ProjRed|Integration{4.6.1.80} [ProjectRed-Integration] (ProjectRed-1.7.10-4.6.1.80-Integration.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
 	ProjRed|Illumination{4.6.1.80} [ProjectRed-Illumination] (ProjectRed-1.7.10-4.6.1.80-Lighting.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
 	ProjRed|Expansion{4.6.1.80} [ProjectRed-Expansion] (ProjectRed-1.7.10-4.6.1.80-Mechanical_beta.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
-	projectx{0.1.1} [�3Project X] (projectx-0.1.1.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	projectx{0.1.1} [ï¿½3Project X] (projectx-0.1.1.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
 	RandomThings{2.2.4} [Random Things] (RandomThings-2.2.4.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
 	recipetweakingcore{1.1.0} [Recipe Tweaking Core] (RecipeTweakingCore-MC1.7.10-1.1.0-8.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
 	RedstoneArsenal{1.7.10R1.1.0} [Redstone Arsenal] (RedstoneArsenal-[1.7.10]1.1.0-80.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
@@ -313,12 +313,12 @@ Details:
 		* asielibAPI (1.0) from AsieLib-1.7.10-0.3.13.jar
 		* asielibAPI|chat (1.0) from AsieLib-1.7.10-0.3.13.jar
 		* asielibAPI|tile (1.0) from AsieLib-1.7.10-0.3.13.jar
-		* Baubles|API (1.0.1.10) from Baubles-1.7.10-1.0.1.10.jar
+		* Baubles|API (1.0.1.4) from Reliquary-1.2.257.jar
 		* BiomesOPlentyAPI (1.0.0) from BiomesOPlenty-1.7.10-2.1.0.1237-universal.jar
 		* BotaniaAPI (49) from Botania r1.6-189.jar
 		* BuildCraftAPI|blueprints (1.2) from buildcraft-6.4.13.jar
 		* BuildCraftAPI|boards (1.0) from buildcraft-6.4.13.jar
-		* BuildCraftAPI|core (1.0) from Railcraft_1.7.10-9.6.1.0.jar
+		* BuildCraftAPI|core (1.0) from buildcraft-6.4.13.jar
 		* BuildCraftAPI|events (1.0) from buildcraft-6.4.13.jar
 		* BuildCraftAPI|facades (1.0) from buildcraft-6.4.13.jar
 		* BuildCraftAPI|filler (3.0) from buildcraft-6.4.13.jar
@@ -329,38 +329,38 @@ Details:
 		* BuildCraftAPI|recipes (2.1) from buildcraft-6.4.13.jar
 		* BuildCraftAPI|robots (1.0) from buildcraft-6.4.13.jar
 		* BuildCraftAPI|statements (1.0) from buildcraft-6.4.13.jar
-		* BuildCraftAPI|tiles (1.1) from buildcraft-6.4.13.jar
+		* BuildCraftAPI|tiles (1.1) from Railcraft_1.7.10-9.6.1.0.jar
 		* BuildCraftAPI|tools (1.0) from Railcraft_1.7.10-9.6.1.0.jar
-		* BuildCraftAPI|transport (4.0) from buildcraft-6.4.13.jar
+		* BuildCraftAPI|transport (4.0) from Railcraft_1.7.10-9.6.1.0.jar
 		* ChiselAPI (0.0.2) from Chisel2-2.3.10.37.jar
 		* ChiselAPI|Carving (0.0.2) from Chisel2-2.3.10.37.jar
-		* CoFHAPI (1.7.10R1.0.0) from Draconic-Evolution-1.7.10-v1.0.1-snapshot_3.jar
-		* CoFHAPI|block (1.7.10R1.0.3) from EnderIO-1.7.10-2.3.0.375_beta.jar
-		* CoFHAPI|core (1.7.10R1.0.12) from CoFHCore-[1.7.10]3.0.2-262.jar
-		* CoFHAPI|energy (1.7.10R1.0.2) from forestry_1.7.10-3.5.4.13.jar
+		* CoFHAPI (1.7.10R1.0.3) from EnderIO-1.7.10-2.3.0.375_beta.jar
+		* CoFHAPI|block (1.7.10R1.0.0) from EnhancedPortals_1.7.10-universal-3.0.10.jar
+		* CoFHAPI|core (1.7.10R1.0.3) from SolarExpansion-Basic-1.6a.jar
+		* CoFHAPI|energy (1.7.10R1.0.0) from EnhancedPortals_1.7.10-universal-3.0.10.jar
 		* CoFHAPI|fluid (1.7.10R1.0.5) from CoFHLib-[1.7.10]1.0.1-151.jar
-		* CoFHAPI|inventory (1.7.10R1.0.4) from CoFHLib-[1.7.10]1.0.1-151.jar
-		* CoFHAPI|item (1.7.10R1.0.12) from CoFHCore-[1.7.10]3.0.2-262.jar
+		* CoFHAPI|inventory (1.7.10R1.0.1) from EnderTech-1.7.10-0.3.0.364.jar
+		* CoFHAPI|item (1.7.10R1.0.0) from EnhancedPortals_1.7.10-universal-3.0.10.jar
 		* CoFHAPI|items (1.7.10R1.0.3) from SolarExpansion-Basic-1.6a.jar
 		* CoFHAPI|modhelpers (1.7.10R1.0.4) from CoFHLib-[1.7.10]1.0.1-151.jar
-		* CoFHAPI|tileentity (1.7.10R1.0.3) from SolarExpansion-Basic-1.6a.jar
-		* CoFHAPI|transport (1.7.10R1.0.1) from buildcraft-compat-6.4.2.jar
-		* CoFHAPI|world (1.7.10R1.0.4) from CoFHLib-[1.7.10]1.0.1-151.jar
-		* CoFHLib (1.7.10R1.0.0B4) from EnderTech-1.7.10-0.3.0.364.jar
+		* CoFHAPI|tileentity (1.7.10R1.0.1) from EnderTech-1.7.10-0.3.0.364.jar
+		* CoFHAPI|transport (1.7.10R1.0.3) from EnderIO-1.7.10-2.3.0.375_beta.jar
+		* CoFHAPI|world (1.7.10R1.0.1) from EnderTech-1.7.10-0.3.0.364.jar
+		* CoFHLib (1.7.10R1.0.1) from CoFHCore-[1.7.10]3.0.2-262.jar
 		* CoFHLib|audio (1.7.10R1.0.0B4) from EnderTech-1.7.10-0.3.0.364.jar
-		* CoFHLib|gui (1.7.10R1.0.0B4) from EnderTech-1.7.10-0.3.0.364.jar
-		* CoFHLib|gui|container (1.7.10R1.0.1) from CoFHCore-[1.7.10]3.0.2-262.jar
+		* CoFHLib|gui (1.7.10R1.0.1) from CoFHCore-[1.7.10]3.0.2-262.jar
+		* CoFHLib|gui|container (1.7.10R1.0.0B4) from EnderTech-1.7.10-0.3.0.364.jar
 		* CoFHLib|gui|element (1.7.10R1.0.1) from CoFHCore-[1.7.10]3.0.2-262.jar
 		* CoFHLib|gui|element|listbox (1.7.10R1.0.0B8) from CoFHLib-[1.7.10]1.0.1-151.jar
-		* CoFHLib|gui|slot (1.7.10R1.0.0B4) from EnderTech-1.7.10-0.3.0.364.jar
+		* CoFHLib|gui|slot (1.7.10R1.0.1) from CoFHCore-[1.7.10]3.0.2-262.jar
 		* CoFHLib|inventory (1.7.10R1.0.0B4) from EnderTech-1.7.10-0.3.0.364.jar
-		* CoFHLib|render (1.7.10R1.0.0B4) from EnderTech-1.7.10-0.3.0.364.jar
+		* CoFHLib|render (1.7.10R1.0.1) from CoFHCore-[1.7.10]3.0.2-262.jar
 		* CoFHLib|render|particle (1.7.10R1.0.0B4) from EnderTech-1.7.10-0.3.0.364.jar
-		* CoFHLib|util (1.7.10R1.0.0B8) from CoFHLib-[1.7.10]1.0.1-151.jar
+		* CoFHLib|util (1.7.10R1.0.0B4) from EnderTech-1.7.10-0.3.0.364.jar
 		* CoFHLib|util|helpers (1.7.10R1.0.0B4) from EnderTech-1.7.10-0.3.0.364.jar
 		* CoFHLib|util|position (1.7.10R1.0.0B8) from CoFHLib-[1.7.10]1.0.1-151.jar
-		* CoFHLib|world (1.7.10R1.0.0B4) from EnderTech-1.7.10-0.3.0.364.jar
-		* CoFHLib|world|feature (1.7.10R1.0.0B4) from EnderTech-1.7.10-0.3.0.364.jar
+		* CoFHLib|world (1.7.10R1.0.1) from CoFHCore-[1.7.10]3.0.2-262.jar
+		* CoFHLib|world|feature (1.7.10R1.0.0B8) from CoFHLib-[1.7.10]1.0.1-151.jar
 		* ComputerCraft|API (1.73) from ComputerCraft1.73.jar
 		* ComputerCraft|API|FileSystem (1.73) from ComputerCraft1.73.jar
 		* ComputerCraft|API|Lua (1.73) from ComputerCraft1.73.jar
@@ -394,15 +394,15 @@ Details:
 		* Guide-API|API (@VERSION@) from Guide-API-1.7.10-1.0-13.jar
 		* IC2API (1.0) from Railcraft_1.7.10-9.6.1.0.jar
 		* inpure|api (1.7) from INpureCore-[1.7.10]1.0.0B9-54.jar
-		* MekanismAPI|core (8.0.0) from EnderIO-1.7.10-2.3.0.375_beta.jar
+		* MekanismAPI|core (8.0.0) from Mekanism-1.7.10-8.1.2.229.jar
 		* MekanismAPI|energy (8.0.0) from EnderIO-1.7.10-2.3.0.375_beta.jar
-		* MekanismAPI|gas (8.0.0) from Mekanism-1.7.10-8.1.2.229.jar
-		* MekanismAPI|infuse (8.0.0) from EnderIO-1.7.10-2.3.0.375_beta.jar
-		* MekanismAPI|laser (8.0.0) from EnderIO-1.7.10-2.3.0.375_beta.jar
+		* MekanismAPI|gas (8.0.0) from EnderIO-1.7.10-2.3.0.375_beta.jar
+		* MekanismAPI|infuse (8.0.0) from Mekanism-1.7.10-8.1.2.229.jar
+		* MekanismAPI|laser (8.0.0) from Mekanism-1.7.10-8.1.2.229.jar
 		* MekanismAPI|reactor (8.0.0) from EnderIO-1.7.10-2.3.0.375_beta.jar
-		* MekanismAPI|recipe (8.0.0) from EnderIO-1.7.10-2.3.0.375_beta.jar
-		* MekanismAPI|transmitter (8.0.0) from Mekanism-1.7.10-8.1.2.229.jar
-		* MekanismAPI|util (8.0.0) from Mekanism-1.7.10-8.1.2.229.jar
+		* MekanismAPI|recipe (8.0.0) from Mekanism-1.7.10-8.1.2.229.jar
+		* MekanismAPI|transmitter (8.0.0) from EnderIO-1.7.10-2.3.0.375_beta.jar
+		* MekanismAPI|util (8.0.0) from EnderIO-1.7.10-2.3.0.375_beta.jar
 		* neresources|API (1.0) from NotEnoughResources-1.7.10-0.1.0.95.jar
 		* OpenComputersAPI|Component (5.2.2) from OpenComputers-MC1.7.10-1.5.9.594-dev-universal.jar
 		* OpenComputersAPI|Core (5.2.2) from OpenComputers-MC1.7.10-1.5.9.594-dev-universal.jar
